@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".activity.LoginSMSActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="163dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="187dp"
+        android:textColor="@color/textColorPrimary"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Type your name" />
+
+    <EditText
+        android:id="@+id/edit_country"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/edit_name"
+        android:layout_marginTop="241dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="+55"
+        android:textColor="@color/textColorPrimary"
+        android:layout_alignLeft="@+id/edit_name" />
+
+    <EditText
+        android:id="@+id/edit_ddd"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/edit_country"
+        android:layout_marginStart="73dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="79"
+        android:textColor="@color/textColorPrimary"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="73dp" />
+
+    <EditText
+        android:id="@+id/edit_phone"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edit_name"
+        android:layout_alignTop="@+id/edit_country"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="----------"
+        android:textColor="@color/textColorPrimary"
+        android:layout_alignRight="@+id/edit_name" />
+
+    <Button
+        android:id="@+id/bt_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="198dp"
+        android:text="Register"
+        android:textColor="@color/textColorPrimary"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>
