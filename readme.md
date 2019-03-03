@@ -13,3 +13,4 @@
 1. Java
 2. Android SDK
 3. Firebase (database, auth)
+4. Base64
