@@ -10,6 +10,6 @@
 
 ## Stack
 
-1. Android Studio 3.0.1
+1. Android Studio
 2. Java
 3. Firebase (database, auth)
