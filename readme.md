@@ -10,6 +10,6 @@
 
 ## Stack
 
-1. Android Studio
-2. Java
+1. Java
+2. Android SDK
 3. Firebase (database, auth)
