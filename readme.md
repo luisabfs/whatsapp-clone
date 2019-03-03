@@ -2,10 +2,14 @@
 
 > Simple cloning of the famous instant messaging service, WhatsApp.
 
-Main functionalities are: add contacts and send/receive messages.
+## Main functionalities
 
-IDE: Android Studio 3.0.1
+1. Login and authentication
+2. Add contacts 
+2. Send and receive messages
 
-Programming language: Java
+## Stack
 
-Backend server: Firebase
+1. Android Studio 3.0.1
+2. Java
+3. Firebase (database, auth)
